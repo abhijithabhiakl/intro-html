@@ -24,7 +24,7 @@ hr {
   visibility: hidden;
 }
 .abhijith {
-  padding: 0;
+  padding: 8% 0 0 0;
   margin-top: 0;
   font-family: "Sacramento", cursive;
   font-size: 60px;
@@ -71,10 +71,8 @@ p {
   margin-bottom: 50px;
 }
 
-/********************************************************************************/
-
-
 /**********************************************************************************/
+
 .ddaarrkk {
   color: #000;
 }
@@ -97,17 +95,39 @@ p {
   margin-left: 1%;
   margin: 1px 1px 1px 1px;
   z-index: -1;
+  width: 100%;
 }
 .copy {
   opacity: 0.5;
 }
 
+#footer {
+  text-align: center;
+  padding: 4% 15% 4%;
+}
+.ico {
+  padding: 0 0.85% 0.85%;
+  opacity: 0.8;
+}
+.ico2 {
+  color: rgb(78, 125, 255);
+}
+.ico3 {
+  color: rgb(242, 93, 255);
+}
+.ico4 {
+  color: rgb(236, 37, 37);
+}
+.ico1 {
+  color: rgb(43, 43, 43);
+}
+.table {
+  padding-left: 30px;
+}
+
 @media (max-width: 1028px) {
-  .elect {
-    width: 100%;
-  }
   .aaaa {
-    padding-top: 4%;
+    padding-top: 3%;
   }
   .lg-head {
     text-align: center;
@@ -116,13 +136,22 @@ p {
     width: 550px;
     padding-bottom: 0%;
   }
+  .abhijith {
+    padding: 4% 0 0 0;
+    margin-top: 0;
+    font-family: "Sacramento", cursive;
+    font-size: 105px;
+    margin-bottom: 0;
+  }
+  .web {
+    font-family: "Montez", cursive;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 275%;
+  }
+  #footer {
+    padding-top: 60%;
+  }
 }
 /* end of @media */
-#footer {
-  text-align: center;
-  padding: 6% 15% 6%;
-}
-.ico {
-  padding: 0 0.5% 0.5%;
-  opacity: 0.8;
-}
